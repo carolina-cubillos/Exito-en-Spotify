@@ -21,15 +21,15 @@ En un mundo en el que la industria musical es extremadamente competitiva y está
 - Power BI
 
 ## Procesamiento
-Se identifican valores nulos a través de comandos SQL COUNT, WHERE y IS NULL.
-Se identifican duplicados a través de comandos SQL COUNT, GROUP BY, HAVING.
-Se manejan variables que no son útiles para el análisis a través de comandos SQL SELECT EXCEPT.
-Se identifican datos discrepantes en variables categóricas utilizando el comandos de manejo de string, como REGEXP.
-Se identifican datos discrepantes en variables niméricas utilizando comandos como MAX, MIN y AVG.
-Se comprueba y modifican tipos de datos, cuando es necesario, utilizando CAST
-Se crean nuevas variables utilizando CONCAT  y SUM.
-Se construyen tablas auxiliares utilizando WITH
-Se unen las tablas utilizando LEFT JOIN
+- Se identifican valores nulos a través de comandos SQL COUNT, WHERE y IS NULL.
+- Se identifican duplicados a través de comandos SQL COUNT, GROUP BY, HAVING.
+- Se manejan variables que no son útiles para el análisis a través de comandos SQL SELECT EXCEPT.
+- Se identifican datos discrepantes en variables categóricas utilizando el comandos de manejo de string, como REGEXP.
+- Se identifican datos discrepantes en variables niméricas utilizando comandos como MAX, MIN y AVG.
+- Se comprueba y modifican tipos de datos, cuando es necesario, utilizando CAST.
+- Se crean nuevas variables utilizando CONCAT  y SUM.
+- Se construyen tablas auxiliares utilizando WITH.
+- Se unen las tablas utilizando LEFT JOIN.
 
 
   
@@ -88,12 +88,3 @@ La gran mayoría de canciones reproducidas en el periodo entre la decada de los 
 - Es recomendable estar presentes en todas las plataformas de streaming
 - Es posible pensar que la temática Navideña permite trascender al paso de los años y volverse un clásico
 - No es posible garantizar el éxito con las variables estudiadas, por lo que se recomienda poner esfuerzo también en otras áreas como marketing y redes sociales. Se recomienda analizar resultados en plataformas como TikTok y Youtube.
-
-
-
-Las canciones con un mayor BPM (Beats Por Minuto) tienen más éxito en términos de cantidad de streams en Spotify.
-Las canciones más populares en el ranking de Spotify también tienen un comportamiento similar en otras plataformas como Deezer.
-La presencia de una canción en un mayor número de playlists se relaciona con un mayor número de streams.
-Los artistas con un mayor número de canciones en Spotify tienen más streams totales.
-Las características de la música influyen en el éxito en términos de cantidad de streams en Spotify.
-Deberás validar (refutar o confirmar) estas hipótesis mediante el análisis de los datos, y proporcionar recomendaciones estratégicas basadas en tus hallazgos. En última instancia, el objetivo es que la discográfica y el nuevo artista puedan tomar decisiones informadas que aumenten sus posibilidades de conseguir el “éxito”.
